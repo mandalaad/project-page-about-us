@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@300&display=swap");
+* {
+  font-family: "Montserrat";
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.section2 {
+  margin-top: 200px;
+}
+
+.border1 {
+  box-sizing: border-box;
+  position: absolute;
+  right: 100px;
+  width: 366px;
+  height: 385px;
+  top: 250.85px;
+  border: 13px solid #FD7B38;
+  z-index: -1;
+}
+
+.border2 {
+  box-sizing: border-box;
+  position: absolute;
+  top: 200px;
+  z-index: 1;
+  right: 50px;
+}
+
+.section3 {
+  margin-top: 50px;
+}
+
+.background2 {
+  margin-top: 350px;
+  background-image: url(images/Vector2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background2 .container .row .left-travel-experience .content-left-travel {
+  height: 694px;
+  display: grid;
+  place-content: center;
+}
+.background2 .container .row .left-travel-experience .content-left-travel h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 49px;
+}
+.background2 .container .row .left-travel-experience .content-left-travel h1 span {
+  color: #fd7b38;
+}
+.background2 .container .row .left-travel-experience .content-left-travel p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.background2 .container .row .right-travel-experience {
+  position: relative;
+}
+.background2 .container .row .right-travel-experience .box {
+  width: 280px;
+  height: 141px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.background2 .container .row .right-travel-experience .box-our-ethics {
+  top: 42%;
+}
+.background2 .container .row .right-travel-experience .box-innovations {
+  top: 27%;
+  left: 55%;
+}
+.background2 .container .row .right-travel-experience .box-responsibility {
+  bottom: 27%;
+  left: 55%;
+}
+.background2 .container .row .right-travel-experience .up-side {
+  display: flex;
+  padding: 15px 0 0 15px;
+}
+.background2 .container .row .right-travel-experience .up-side h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fd7b38;
+}
+.background2 .container .row .right-travel-experience .down-side {
+  padding: 15px 0 0 15px;
+}
+.background2 .container .row .right-travel-experience .down-side p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #1a2c21;
+}
+
+.section4 {
+  margin-top: 150px;
+  background-color: #F6F6F6;
+  padding: 40px;
+}
+
+.kartu1 {
+  background-color: #1A2C21;
+  width: 550px;
+  min-height: 300px;
+}
+
+.kartu2 {
+  background-color: #0C5B21;
+  width: 550px;
+  min-height: 300px;
+}
+
+.card:hover {
+  transform: scale(120%);
+  transition: 0.2s;
+  z-index: 1;
+}
+
+.awan1 {
+  right: 29.17%;
+  top: 19.67%;
+  position: absolute;
+}
+
+.awan2 {
+  right: 19.22%;
+  top: 10.16%;
+  position: absolute;
+}
+
+.awan3 {
+  right: 10.9%;
+  top: 5.48%;
+  position: absolute;
+}
+
+.awan4 {
+  right: 18.17%;
+  top: 27.67%;
+  position: absolute;
+}
+
+.awan5 {
+  right: 8.17%;
+  top: 28.67%;
+  position: absolute;
+}
+
+.section5 {
+  margin-top: 200px;
+}
+.section5 .container .img-box {
+  position: relative;
+}
+.section5 .container .img-box img {
+  width: 230px;
+  height: 372px;
+  border-radius: 10px;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left;
+     object-position: left;
+}
+.section5 .container .img-box h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+}
+.section5 .container .img-box p {
+  color: #fff;
+  font-size: 18px;
+  font-style: medium;
+  line-height: 25px;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+.btn1 {
+  width: 200px;
+  height: 40px;
+}
+
+.footer {
+  background-image: url("images/Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+.footer .container-fluid .row .box-footer {
+  padding-top: 150px;
+}
+.footer .container-fluid .row .box-footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+}
+.footer .container-fluid .row .box-footer p {
+  display: flex;
+  padding: 0;
+  margin: 5px 0;
+}
+.footer .container-fluid .row .box-footer h5 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer .container-fluid .row .box1 {
+  padding-top: 35px;
+  padding-left: 35px;
+}
+.footer .container-fluid .row .box1 h3 {
+  color: #fd7b38;
+  font-weight: 600;
+}
+.footer .container-fluid .row .box1 p {
+  color: #fff;
+}
+.footer .container-fluid .row .box2 {
+  color: #fff;
+  padding-top: 35px;
+  padding-right: 35px;
+}
+.footer .container-fluid .row .box2 i {
+  float: right;
+  padding: 0 20px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  font-weight: bold;
+}/*# sourceMappingURL=aboutus.css.map */
